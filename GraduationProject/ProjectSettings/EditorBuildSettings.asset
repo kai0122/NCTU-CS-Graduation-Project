@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scene/Scene2.unity
+    guid: e39f89c226e3743e9ada20cfe270aa45
+  - enabled: 0
+    path: Assets/Scene/Scene4.unity
+    guid: 5685f1b6e9bff0342a029ddaae1f57b5
+  - enabled: 1
+    path: Assets/Scene/Scene(Network, no see kinecr, no double move).unity
+    guid: c1d9b4fc3a81a864b8cab1559b7d2d7b
+  m_configObjects: {}

@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 917d7a2df3d50394abd590986db9a5e2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bale_path
+    100002: //RootNode
+    100004: gray_bale
+    100006: green_bale
+    100008: ramp
+    100010: ramp_path
+    100012: yellow_bale
+    100014: bale_puller
+    100016: bale3_path
+    100018: bale5_path
+    100020: gray3
+    100022: gray5
+    100024: green3
+    100026: green5
+    100028: yellow3
+    100030: yellow5
+    400000: bale_path
+    400002: //RootNode
+    400004: gray_bale
+    400006: green_bale
+    400008: ramp
+    400010: ramp_path
+    400012: yellow_bale
+    400014: bale_puller
+    400016: bale3_path
+    400018: bale5_path
+    400020: gray3
+    400022: gray5
+    400024: green3
+    400026: green5
+    400028: yellow3
+    400030: yellow5
+    2300000: bale_path
+    2300002: gray_bale
+    2300004: green_bale
+    2300006: ramp
+    2300008: ramp_path
+    2300010: yellow_bale
+    2300012: bale_puller
+    2300014: bale3_path
+    2300016: bale5_path
+    2300018: gray3
+    2300020: gray5
+    2300022: green3
+    2300024: green5
+    2300026: yellow3
+    2300028: yellow5
+    3300000: bale_path
+    3300002: gray_bale
+    3300004: green_bale
+    3300006: ramp
+    3300008: ramp_path
+    3300010: yellow_bale
+    3300012: bale_puller
+    3300014: bale3_path
+    3300016: bale5_path
+    3300018: gray3
+    3300020: gray5
+    3300022: green3
+    3300024: green5
+    3300026: yellow3
+    3300028: yellow5
+    4300000: yellow_bale
+    4300002: ramp
+    4300004: ramp_path
+    4300006: bale_path
+    4300008: gray_bale
+    4300010: green_bale
+    4300012: bale_puller
+    4300014: yellow3
+    4300016: yellow5
+    4300018: gray3
+    4300020: gray5
+    4300022: green3
+    4300024: green5
+    4300026: bale3_path
+    4300028: bale5_path
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

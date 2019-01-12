@@ -1,0 +1,1732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &40251510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40251511}
+  - component: {fileID: 40251512}
+  m_Layer: 5
+  m_Name: SlashGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &40251511
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40251510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2434262, y: 1.2434269, z: 1.2434269}
+  m_Children:
+  - {fileID: 1235453989}
+  - {fileID: 1188218864}
+  m_Father: {fileID: 1483230054}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4.6251, y: -5.2945004}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &40251512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40251510}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e7459110b9666449485c40f25362a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 0
+  animationCurve:
+    m_Curve:
+    - time: 0.00308609
+      value: 0.01600647
+      inSlope: -1.1131221
+      outSlope: -1.1131221
+      tangentMode: 0
+    - time: 0.2501607
+      value: 0.6430757
+      inSlope: 1.0566179
+      outSlope: 1.0566179
+      tangentMode: 0
+    - time: 0.99176025
+      value: 0.9894829
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 3
+  steeperCurves: 0
+  tweenGroup: 0
+  useFixedUpdate: 0
+  onFinished: []
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 1.3, y: 1.3, z: 1.3}
+  to: {x: 1, y: 1, z: 1}
+  updateTable: 0
+--- !u!1 &102892025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102892026}
+  - component: {fileID: 102892028}
+  - component: {fileID: 102892027}
+  m_Layer: 5
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &102892026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102892025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1483230054}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 3, y: 8}
+  m_SizeDelta: {x: 142, y: 141}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &102892027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102892025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: c3232fda2d4de0f4898c0e21a56c03b1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &102892028
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102892025}
+  m_CullTransparentMesh: 0
+--- !u!1 &330227254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330227255}
+  - component: {fileID: 330227258}
+  - component: {fileID: 330227257}
+  m_Layer: 5
+  m_Name: ProgressBarHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &330227255
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 330227254}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1138743015}
+  m_Father: {fileID: 1483230054}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -912}
+  m_SizeDelta: {x: 614, y: 177}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &330227257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 330227254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300056, guid: 8a1d67ce83b51d84cba5ed25c7ff5a60, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &330227258
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 330227254}
+  m_CullTransparentMesh: 0
+--- !u!1 &830368323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830368325}
+  - component: {fileID: 830368326}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &830368325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830368323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &830368326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830368323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755beb70008e4f94abf6ba81772aa6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackPanel: {fileID: 102892025}
+  progressBar: {fileID: 1138743016}
+  loaderState:
+    List:
+    - mEventName: Logo
+      mShowGroup: 1
+      mUpdateEntryList: 0
+      mEntryList:
+      - target: {fileID: 102892025}
+        name: active
+      - target: {fileID: 102892027}
+        name: alphaHitTestMinimumThreshold
+      - target: {fileID: 102892026}
+        name: anchoredPosition
+      - target: {fileID: 102892026}
+        name: anchoredPosition3D
+      - target: {fileID: 102892026}
+        name: anchorMax
+      - target: {fileID: 102892026}
+        name: anchorMin
+      - target: {fileID: 102892027}
+        name: color
+      - target: {fileID: 102892028}
+        name: cull
+      - target: {fileID: 102892027}
+        name: enabled
+      - target: {fileID: 102892026}
+        name: eulerAngles
+      - target: {fileID: 102892027}
+        name: eventAlphaThreshold
+      - target: {fileID: 102892027}
+        name: fillAmount
+      - target: {fileID: 102892027}
+        name: fillCenter
+      - target: {fileID: 102892027}
+        name: fillClockwise
+      - target: {fileID: 102892027}
+        name: fillMethod
+      - target: {fileID: 102892027}
+        name: fillOrigin
+      - target: {fileID: 102892026}
+        name: forward
+      - target: {fileID: 102892026}
+        name: hasChanged
+      - target: {fileID: 102892028}
+        name: hasPopInstruction
+      - target: {fileID: 102892027}
+        name: hideFlags
+      - target: {fileID: 102892026}
+        name: hideFlags
+      - target: {fileID: 102892025}
+        name: hideFlags
+      - target: {fileID: 102892028}
+        name: hideFlags
+      - target: {fileID: 102892026}
+        name: hierarchyCapacity
+      - target: {fileID: 102892028}
+        name: isMask
+      - target: {fileID: 102892025}
+        name: isStatic
+      - target: {fileID: 102892025}
+        name: layer
+      - target: {fileID: 102892026}
+        name: localEulerAngles
+      - target: {fileID: 102892026}
+        name: localPosition
+      - target: {fileID: 102892026}
+        name: localRotation
+      - target: {fileID: 102892026}
+        name: localScale
+      - target: {fileID: 102892027}
+        name: maskable
+      - target: {fileID: 102892027}
+        name: material
+      - target: {fileID: 102892028}
+        name: materialCount
+      - target: {fileID: 102892026}
+        name: name
+      - target: {fileID: 102892025}
+        name: name
+      - target: {fileID: 102892028}
+        name: name
+      - target: {fileID: 102892027}
+        name: name
+      - target: {fileID: 102892026}
+        name: offsetMax
+      - target: {fileID: 102892026}
+        name: offsetMin
+      - target: {fileID: 102892027}
+        name: onCullStateChanged
+      - target: {fileID: 102892027}
+        name: overrideSprite
+      - target: {fileID: 102892026}
+        name: parent
+      - target: {fileID: 102892026}
+        name: pivot
+      - target: {fileID: 102892028}
+        name: popMaterialCount
+      - target: {fileID: 102892026}
+        name: position
+      - target: {fileID: 102892027}
+        name: preserveAspect
+      - target: {fileID: 102892027}
+        name: raycastTarget
+      - target: {fileID: 102892026}
+        name: right
+      - target: {fileID: 102892026}
+        name: rotation
+      - target: {fileID: 102892027}
+        name: runInEditMode
+      - target: {fileID: 102892026}
+        name: sizeDelta
+      - target: {fileID: 102892027}
+        name: sprite
+      - target: {fileID: 102892025}
+        name: tag
+      - target: {fileID: 102892028}
+        name: tag
+      - target: {fileID: 102892026}
+        name: tag
+      - target: {fileID: 102892027}
+        name: tag
+      - target: {fileID: 102892027}
+        name: type
+      - target: {fileID: 102892026}
+        name: up
+      - target: {fileID: 102892027}
+        name: useGUILayout
+      - target: {fileID: 102892028}
+        name: add_onRequestRebuild (CanvasRenderer+OnRequestRebuild value)
+      - target: {fileID: 102892026}
+        name: add_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties value)
+      - target: {fileID: 102892028}
+        name: AddUIVertexStream (UIVertex] verts, Vector3] positions, Color32] colors,
+          Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents)
+      - target: {fileID: 102892027}
+        name: CalculateLayoutInputHorizontal ()
+      - target: {fileID: 102892027}
+        name: CalculateLayoutInputVertical ()
+      - target: {fileID: 102892028}
+        name: Clear ()
+      - target: {fileID: 102892025}
+        name: CreatePrimitive (PrimitiveType type)
+      - target: {fileID: 102892028}
+        name: CreateUIVertexStream (UIVertex] verts, Vector3] positions, Color32]
+          colors, Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents,
+          Int32] indicies)
+      - target: {fileID: 102892027}
+        name: CrossFadeAlpha (Single alpha, Single duration, Boolean ignoreTimeScale)
+      - target: {fileID: 102892027}
+        name: Cull (Rect clipRect, Boolean validRect)
+      - target: {fileID: 102892026}
+        name: DetachChildren ()
+      - target: {fileID: 102892028}
+        name: DisableRectClipping ()
+      - target: {fileID: 102892028}
+        name: EnableRectClipping (Rect rect)
+      - target: {fileID: 102892025}
+        name: Find (String name)
+      - target: {fileID: 102892026}
+        name: Find (String name)
+      - target: {fileID: 102892026}
+        name: FindChild (String name)
+      - target: {fileID: 102892025}
+        name: FindGameObjectsWithTag (String tag)
+      - target: {fileID: 102892025}
+        name: FindGameObjectWithTag (String tag)
+      - target: {fileID: 102892025}
+        name: FindWithTag (String tag)
+      - target: {fileID: 102892028}
+        name: GetAlpha ()
+      - target: {fileID: 102892026}
+        name: GetChild (Int32 index)
+      - target: {fileID: 102892026}
+        name: GetChildCount ()
+      - target: {fileID: 102892028}
+        name: GetColor ()
+      - target: {fileID: 102892026}
+        name: GetEnumerator ()
+      - target: {fileID: 102892026}
+        name: GetLocalCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 102892027}
+        name: GetModifiedMaterial (Material baseMaterial)
+      - target: {fileID: 102892027}
+        name: GetPixelAdjustedRect ()
+      - target: {fileID: 102892028}
+        name: GetPopMaterial (Int32 index)
+      - target: {fileID: 102892026}
+        name: GetSiblingIndex ()
+      - target: {fileID: 102892026}
+        name: GetWorldCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 102892027}
+        name: GraphicUpdateComplete ()
+      - target: {fileID: 102892027}
+        name: IsActive ()
+      - target: {fileID: 102892026}
+        name: IsChildOf (Transform parent)
+      - target: {fileID: 102892027}
+        name: IsDestroyed ()
+      - target: {fileID: 102892027}
+        name: IsRaycastLocationValid (Vector2 screenPoint, Camera eventCamera)
+      - target: {fileID: 102892027}
+        name: LayoutComplete ()
+      - target: {fileID: 102892027}
+        name: OnAfterDeserialize ()
+      - target: {fileID: 102892027}
+        name: OnBeforeSerialize ()
+      - target: {fileID: 102892027}
+        name: OnRebuildRequested ()
+      - target: {fileID: 102892027}
+        name: ParentMaskStateChanged ()
+      - target: {fileID: 102892027}
+        name: PixelAdjustPoint (Vector2 point)
+      - target: {fileID: 102892025}
+        name: PlayAnimation (Object animation)
+      - target: {fileID: 102892027}
+        name: Raycast (Vector2 sp, Camera eventCamera)
+      - target: {fileID: 102892027}
+        name: Rebuild (CanvasUpdate update)
+      - target: {fileID: 102892027}
+        name: RecalculateClipping ()
+      - target: {fileID: 102892027}
+        name: RecalculateMasking ()
+      - target: {fileID: 102892027}
+        name: RegisterDirtyLayoutCallback (UnityAction action)
+      - target: {fileID: 102892027}
+        name: RegisterDirtyMaterialCallback (UnityAction action)
+      - target: {fileID: 102892027}
+        name: RegisterDirtyVerticesCallback (UnityAction action)
+      - target: {fileID: 102892028}
+        name: remove_onRequestRebuild (CanvasRenderer+OnRequestRebuild value)
+      - target: {fileID: 102892026}
+        name: remove_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties
+          value)
+      - target: {fileID: 102892026}
+        name: RotateAroundLocal (Vector3 axis, Single angle)
+      - target: {fileID: 102892025}
+        name: SampleAnimation (Object clip, Single time)
+      - target: {fileID: 102892025}
+        name: SetActive (Boolean value)
+      - target: {fileID: 102892025}
+        name: SetActiveRecursively (Boolean state)
+      - target: {fileID: 102892027}
+        name: SetAllDirty ()
+      - target: {fileID: 102892028}
+        name: SetAlpha (Single alpha)
+      - target: {fileID: 102892028}
+        name: SetAlphaTexture (Texture texture)
+      - target: {fileID: 102892026}
+        name: SetAsFirstSibling ()
+      - target: {fileID: 102892026}
+        name: SetAsLastSibling ()
+      - target: {fileID: 102892027}
+        name: SetClipRect (Rect clipRect, Boolean validRect)
+      - target: {fileID: 102892028}
+        name: SetColor (Color color)
+      - target: {fileID: 102892026}
+        name: SetInsetAndSizeFromParentEdge (RectTransform+Edge edge, Single inset,
+          Single size)
+      - target: {fileID: 102892027}
+        name: SetLayoutDirty ()
+      - target: {fileID: 102892027}
+        name: SetMaterialDirty ()
+      - target: {fileID: 102892028}
+        name: SetMesh (Mesh mesh)
+      - target: {fileID: 102892027}
+        name: SetNativeSize ()
+      - target: {fileID: 102892028}
+        name: SetPopMaterial (Material material, Int32 index)
+      - target: {fileID: 102892026}
+        name: SetPositionAndRotation (Vector3 position, Quaternion rotation)
+      - target: {fileID: 102892026}
+        name: SetSiblingIndex (Int32 index)
+      - target: {fileID: 102892026}
+        name: SetSizeWithCurrentAnchors (RectTransform+Axis axis, Single size)
+      - target: {fileID: 102892028}
+        name: SetTexture (Texture texture)
+      - target: {fileID: 102892027}
+        name: SetVerticesDirty ()
+      - target: {fileID: 102892028}
+        name: SplitUIVertexStreams (UIVertex] verts, Vector3] positions, Color32]
+          colors, Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents,
+          Int32] indicies)
+      - target: {fileID: 102892027}
+        name: StopAllCoroutines ()
+      - target: {fileID: 102892025}
+        name: StopAnimation ()
+      - target: {fileID: 102892027}
+        name: UnregisterDirtyLayoutCallback (UnityAction action)
+      - target: {fileID: 102892027}
+        name: UnregisterDirtyMaterialCallback (UnityAction action)
+      - target: {fileID: 102892027}
+        name: UnregisterDirtyVerticesCallback (UnityAction action)
+      mTarget: {fileID: 102892025}
+      mMethodName: SetActive
+      mParameters:
+      - obj: {fileID: 0}
+        field: 
+        paramRefType: 0
+        argStringValue: 
+        argIntValue: 0
+        argFloatValue: 0
+        argDoubleValue: 0
+        argBoolValue: 0
+        argColor:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        argVector2: {x: 0, y: 0}
+        argVector3: {x: 0, y: 0, z: 0}
+        argVector4: {x: 0, y: 0, z: 0, w: 0}
+      mCached: 0
+      oneShot: 0
+    - mEventName: Logo
+      mShowGroup: 1
+      mUpdateEntryList: 0
+      mEntryList:
+      - target: {fileID: 1420095547}
+        name: active
+      - target: {fileID: 1420095550}
+        name: alphaHitTestMinimumThreshold
+      - target: {fileID: 1420095548}
+        name: anchoredPosition
+      - target: {fileID: 1420095548}
+        name: anchoredPosition3D
+      - target: {fileID: 1420095548}
+        name: anchorMax
+      - target: {fileID: 1420095548}
+        name: anchorMin
+      - target: {fileID: 1420095549}
+        name: animationCurve
+      - target: {fileID: 1420095549}
+        name: callWhenFinished
+      - target: {fileID: 1420095550}
+        name: color
+      - target: {fileID: 1420095551}
+        name: cull
+      - target: {fileID: 1420095549}
+        name: delay
+      - target: {fileID: 1420095549}
+        name: duration
+      - target: {fileID: 1420095549}
+        name: enabled
+      - target: {fileID: 1420095550}
+        name: enabled
+      - target: {fileID: 1420095548}
+        name: eulerAngles
+      - target: {fileID: 1420095550}
+        name: eventAlphaThreshold
+      - target: {fileID: 1420095549}
+        name: eventReceiver
+      - target: {fileID: 1420095550}
+        name: fillAmount
+      - target: {fileID: 1420095550}
+        name: fillCenter
+      - target: {fileID: 1420095550}
+        name: fillClockwise
+      - target: {fileID: 1420095550}
+        name: fillMethod
+      - target: {fileID: 1420095550}
+        name: fillOrigin
+      - target: {fileID: 1420095548}
+        name: forward
+      - target: {fileID: 1420095549}
+        name: from
+      - target: {fileID: 1420095548}
+        name: hasChanged
+      - target: {fileID: 1420095551}
+        name: hasPopInstruction
+      - target: {fileID: 1420095549}
+        name: hideFlags
+      - target: {fileID: 1420095550}
+        name: hideFlags
+      - target: {fileID: 1420095551}
+        name: hideFlags
+      - target: {fileID: 1420095548}
+        name: hideFlags
+      - target: {fileID: 1420095547}
+        name: hideFlags
+      - target: {fileID: 1420095548}
+        name: hierarchyCapacity
+      - target: {fileID: 1420095549}
+        name: ignoreTimeScale
+      - target: {fileID: 1420095551}
+        name: isMask
+      - target: {fileID: 1420095547}
+        name: isStatic
+      - target: {fileID: 1420095547}
+        name: layer
+      - target: {fileID: 1420095548}
+        name: localEulerAngles
+      - target: {fileID: 1420095548}
+        name: localPosition
+      - target: {fileID: 1420095548}
+        name: localRotation
+      - target: {fileID: 1420095548}
+        name: localScale
+      - target: {fileID: 1420095550}
+        name: maskable
+      - target: {fileID: 1420095550}
+        name: material
+      - target: {fileID: 1420095551}
+        name: materialCount
+      - target: {fileID: 1420095549}
+        name: method
+      - target: {fileID: 1420095550}
+        name: name
+      - target: {fileID: 1420095549}
+        name: name
+      - target: {fileID: 1420095547}
+        name: name
+      - target: {fileID: 1420095551}
+        name: name
+      - target: {fileID: 1420095548}
+        name: name
+      - target: {fileID: 1420095548}
+        name: offsetMax
+      - target: {fileID: 1420095548}
+        name: offsetMin
+      - target: {fileID: 1420095550}
+        name: onCullStateChanged
+      - target: {fileID: 1420095549}
+        name: onFinished
+      - target: {fileID: 1420095550}
+        name: overrideSprite
+      - target: {fileID: 1420095548}
+        name: parent
+      - target: {fileID: 1420095548}
+        name: pivot
+      - target: {fileID: 1420095551}
+        name: popMaterialCount
+      - target: {fileID: 1420095548}
+        name: position
+      - target: {fileID: 1420095549}
+        name: position
+      - target: {fileID: 1420095550}
+        name: preserveAspect
+      - target: {fileID: 1420095550}
+        name: raycastTarget
+      - target: {fileID: 1420095548}
+        name: right
+      - target: {fileID: 1420095548}
+        name: rotation
+      - target: {fileID: 1420095549}
+        name: runInEditMode
+      - target: {fileID: 1420095550}
+        name: runInEditMode
+      - target: {fileID: 1420095548}
+        name: sizeDelta
+      - target: {fileID: 1420095550}
+        name: sprite
+      - target: {fileID: 1420095549}
+        name: steeperCurves
+      - target: {fileID: 1420095549}
+        name: style
+      - target: {fileID: 1420095549}
+        name: tag
+      - target: {fileID: 1420095548}
+        name: tag
+      - target: {fileID: 1420095551}
+        name: tag
+      - target: {fileID: 1420095547}
+        name: tag
+      - target: {fileID: 1420095550}
+        name: tag
+      - target: {fileID: 1420095549}
+        name: to
+      - target: {fileID: 1420095549}
+        name: tweenFactor
+      - target: {fileID: 1420095549}
+        name: tweenGroup
+      - target: {fileID: 1420095550}
+        name: type
+      - target: {fileID: 1420095548}
+        name: up
+      - target: {fileID: 1420095549}
+        name: useFixedUpdate
+      - target: {fileID: 1420095549}
+        name: useGUILayout
+      - target: {fileID: 1420095550}
+        name: useGUILayout
+      - target: {fileID: 1420095549}
+        name: value
+      - target: {fileID: 1420095549}
+        name: worldSpace
+      - target: {fileID: 1420095551}
+        name: add_onRequestRebuild (CanvasRenderer+OnRequestRebuild value)
+      - target: {fileID: 1420095548}
+        name: add_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties value)
+      - target: {fileID: 1420095551}
+        name: AddUIVertexStream (UIVertex] verts, Vector3] positions, Color32] colors,
+          Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents)
+      - target: {fileID: 1420095550}
+        name: CalculateLayoutInputHorizontal ()
+      - target: {fileID: 1420095550}
+        name: CalculateLayoutInputVertical ()
+      - target: {fileID: 1420095551}
+        name: Clear ()
+      - target: {fileID: 1420095547}
+        name: CreatePrimitive (PrimitiveType type)
+      - target: {fileID: 1420095551}
+        name: CreateUIVertexStream (UIVertex] verts, Vector3] positions, Color32]
+          colors, Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents,
+          Int32] indicies)
+      - target: {fileID: 1420095550}
+        name: CrossFadeAlpha (Single alpha, Single duration, Boolean ignoreTimeScale)
+      - target: {fileID: 1420095550}
+        name: Cull (Rect clipRect, Boolean validRect)
+      - target: {fileID: 1420095548}
+        name: DetachChildren ()
+      - target: {fileID: 1420095551}
+        name: DisableRectClipping ()
+      - target: {fileID: 1420095551}
+        name: EnableRectClipping (Rect rect)
+      - target: {fileID: 1420095547}
+        name: Find (String name)
+      - target: {fileID: 1420095548}
+        name: Find (String name)
+      - target: {fileID: 1420095548}
+        name: FindChild (String name)
+      - target: {fileID: 1420095547}
+        name: FindGameObjectsWithTag (String tag)
+      - target: {fileID: 1420095547}
+        name: FindGameObjectWithTag (String tag)
+      - target: {fileID: 1420095547}
+        name: FindWithTag (String tag)
+      - target: {fileID: 1420095551}
+        name: GetAlpha ()
+      - target: {fileID: 1420095548}
+        name: GetChild (Int32 index)
+      - target: {fileID: 1420095548}
+        name: GetChildCount ()
+      - target: {fileID: 1420095551}
+        name: GetColor ()
+      - target: {fileID: 1420095548}
+        name: GetEnumerator ()
+      - target: {fileID: 1420095548}
+        name: GetLocalCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 1420095550}
+        name: GetModifiedMaterial (Material baseMaterial)
+      - target: {fileID: 1420095550}
+        name: GetPixelAdjustedRect ()
+      - target: {fileID: 1420095551}
+        name: GetPopMaterial (Int32 index)
+      - target: {fileID: 1420095548}
+        name: GetSiblingIndex ()
+      - target: {fileID: 1420095548}
+        name: GetWorldCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 1420095550}
+        name: GraphicUpdateComplete ()
+      - target: {fileID: 1420095550}
+        name: IsActive ()
+      - target: {fileID: 1420095548}
+        name: IsChildOf (Transform parent)
+      - target: {fileID: 1420095550}
+        name: IsDestroyed ()
+      - target: {fileID: 1420095550}
+        name: IsRaycastLocationValid (Vector2 screenPoint, Camera eventCamera)
+      - target: {fileID: 1420095550}
+        name: LayoutComplete ()
+      - target: {fileID: 1420095550}
+        name: OnAfterDeserialize ()
+      - target: {fileID: 1420095550}
+        name: OnBeforeSerialize ()
+      - target: {fileID: 1420095550}
+        name: OnRebuildRequested ()
+      - target: {fileID: 1420095550}
+        name: ParentMaskStateChanged ()
+      - target: {fileID: 1420095550}
+        name: PixelAdjustPoint (Vector2 point)
+      - target: {fileID: 1420095547}
+        name: PlayAnimation (Object animation)
+      - target: {fileID: 1420095549}
+        name: PlayForward ()
+      - target: {fileID: 1420095549}
+        name: PlayReverse ()
+      - target: {fileID: 1420095550}
+        name: Raycast (Vector2 sp, Camera eventCamera)
+      - target: {fileID: 1420095550}
+        name: Rebuild (CanvasUpdate update)
+      - target: {fileID: 1420095550}
+        name: RecalculateClipping ()
+      - target: {fileID: 1420095550}
+        name: RecalculateMasking ()
+      - target: {fileID: 1420095550}
+        name: RegisterDirtyLayoutCallback (UnityAction action)
+      - target: {fileID: 1420095550}
+        name: RegisterDirtyMaterialCallback (UnityAction action)
+      - target: {fileID: 1420095550}
+        name: RegisterDirtyVerticesCallback (UnityAction action)
+      - target: {fileID: 1420095551}
+        name: remove_onRequestRebuild (CanvasRenderer+OnRequestRebuild value)
+      - target: {fileID: 1420095548}
+        name: remove_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties
+          value)
+      - target: {fileID: 1420095549}
+        name: RemoveOnFinished (EventDelegate del)
+      - target: {fileID: 1420095549}
+        name: ResetToBeginning ()
+      - target: {fileID: 1420095548}
+        name: RotateAroundLocal (Vector3 axis, Single angle)
+      - target: {fileID: 1420095549}
+        name: Sample (Single factor, Boolean isFinished)
+      - target: {fileID: 1420095547}
+        name: SampleAnimation (Object clip, Single time)
+      - target: {fileID: 1420095547}
+        name: SetActive (Boolean value)
+      - target: {fileID: 1420095547}
+        name: SetActiveRecursively (Boolean state)
+      - target: {fileID: 1420095550}
+        name: SetAllDirty ()
+      - target: {fileID: 1420095551}
+        name: SetAlpha (Single alpha)
+      - target: {fileID: 1420095551}
+        name: SetAlphaTexture (Texture texture)
+      - target: {fileID: 1420095548}
+        name: SetAsFirstSibling ()
+      - target: {fileID: 1420095548}
+        name: SetAsLastSibling ()
+      - target: {fileID: 1420095550}
+        name: SetClipRect (Rect clipRect, Boolean validRect)
+      - target: {fileID: 1420095551}
+        name: SetColor (Color color)
+      - target: {fileID: 1420095549}
+        name: SetEndToCurrentValue ()
+      - target: {fileID: 1420095548}
+        name: SetInsetAndSizeFromParentEdge (RectTransform+Edge edge, Single inset,
+          Single size)
+      - target: {fileID: 1420095550}
+        name: SetLayoutDirty ()
+      - target: {fileID: 1420095550}
+        name: SetMaterialDirty ()
+      - target: {fileID: 1420095551}
+        name: SetMesh (Mesh mesh)
+      - target: {fileID: 1420095550}
+        name: SetNativeSize ()
+      - target: {fileID: 1420095551}
+        name: SetPopMaterial (Material material, Int32 index)
+      - target: {fileID: 1420095548}
+        name: SetPositionAndRotation (Vector3 position, Quaternion rotation)
+      - target: {fileID: 1420095548}
+        name: SetSiblingIndex (Int32 index)
+      - target: {fileID: 1420095548}
+        name: SetSizeWithCurrentAnchors (RectTransform+Axis axis, Single size)
+      - target: {fileID: 1420095549}
+        name: SetStartToCurrentValue ()
+      - target: {fileID: 1420095551}
+        name: SetTexture (Texture texture)
+      - target: {fileID: 1420095550}
+        name: SetVerticesDirty ()
+      - target: {fileID: 1420095551}
+        name: SplitUIVertexStreams (UIVertex] verts, Vector3] positions, Color32]
+          colors, Vector2] uv0S, Vector2] uv1S, Vector3] normals, Vector4] tangents,
+          Int32] indicies)
+      - target: {fileID: 1420095549}
+        name: StopAllCoroutines ()
+      - target: {fileID: 1420095550}
+        name: StopAllCoroutines ()
+      - target: {fileID: 1420095547}
+        name: StopAnimation ()
+      - target: {fileID: 1420095549}
+        name: Toggle ()
+      - target: {fileID: 1420095550}
+        name: UnregisterDirtyLayoutCallback (UnityAction action)
+      - target: {fileID: 1420095550}
+        name: UnregisterDirtyMaterialCallback (UnityAction action)
+      - target: {fileID: 1420095550}
+        name: UnregisterDirtyVerticesCallback (UnityAction action)
+      mTarget: {fileID: 1420095549}
+      mMethodName: PlayForward
+      mParameters: []
+      mCached: 0
+      oneShot: 0
+    - mEventName: Backgorund
+      mShowGroup: 1
+      mUpdateEntryList: 0
+      mEntryList:
+      - target: {fileID: 40251510}
+        name: active
+      - target: {fileID: 40251511}
+        name: anchoredPosition
+      - target: {fileID: 40251511}
+        name: anchoredPosition3D
+      - target: {fileID: 40251511}
+        name: anchorMax
+      - target: {fileID: 40251511}
+        name: anchorMin
+      - target: {fileID: 40251512}
+        name: animationCurve
+      - target: {fileID: 40251512}
+        name: callWhenFinished
+      - target: {fileID: 40251512}
+        name: delay
+      - target: {fileID: 40251512}
+        name: duration
+      - target: {fileID: 40251512}
+        name: enabled
+      - target: {fileID: 40251511}
+        name: eulerAngles
+      - target: {fileID: 40251512}
+        name: eventReceiver
+      - target: {fileID: 40251511}
+        name: forward
+      - target: {fileID: 40251512}
+        name: from
+      - target: {fileID: 40251511}
+        name: hasChanged
+      - target: {fileID: 40251510}
+        name: hideFlags
+      - target: {fileID: 40251511}
+        name: hideFlags
+      - target: {fileID: 40251512}
+        name: hideFlags
+      - target: {fileID: 40251511}
+        name: hierarchyCapacity
+      - target: {fileID: 40251512}
+        name: ignoreTimeScale
+      - target: {fileID: 40251510}
+        name: isStatic
+      - target: {fileID: 40251510}
+        name: layer
+      - target: {fileID: 40251511}
+        name: localEulerAngles
+      - target: {fileID: 40251511}
+        name: localPosition
+      - target: {fileID: 40251511}
+        name: localRotation
+      - target: {fileID: 40251511}
+        name: localScale
+      - target: {fileID: 40251512}
+        name: method
+      - target: {fileID: 40251512}
+        name: name
+      - target: {fileID: 40251510}
+        name: name
+      - target: {fileID: 40251511}
+        name: name
+      - target: {fileID: 40251511}
+        name: offsetMax
+      - target: {fileID: 40251511}
+        name: offsetMin
+      - target: {fileID: 40251512}
+        name: onFinished
+      - target: {fileID: 40251511}
+        name: parent
+      - target: {fileID: 40251511}
+        name: pivot
+      - target: {fileID: 40251511}
+        name: position
+      - target: {fileID: 40251511}
+        name: right
+      - target: {fileID: 40251511}
+        name: rotation
+      - target: {fileID: 40251512}
+        name: runInEditMode
+      - target: {fileID: 40251512}
+        name: scale
+      - target: {fileID: 40251511}
+        name: sizeDelta
+      - target: {fileID: 40251512}
+        name: steeperCurves
+      - target: {fileID: 40251512}
+        name: style
+      - target: {fileID: 40251512}
+        name: tag
+      - target: {fileID: 40251511}
+        name: tag
+      - target: {fileID: 40251510}
+        name: tag
+      - target: {fileID: 40251512}
+        name: to
+      - target: {fileID: 40251512}
+        name: tweenFactor
+      - target: {fileID: 40251512}
+        name: tweenGroup
+      - target: {fileID: 40251511}
+        name: up
+      - target: {fileID: 40251512}
+        name: updateTable
+      - target: {fileID: 40251512}
+        name: useFixedUpdate
+      - target: {fileID: 40251512}
+        name: useGUILayout
+      - target: {fileID: 40251512}
+        name: value
+      - target: {fileID: 40251511}
+        name: add_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties value)
+      - target: {fileID: 40251512}
+        name: Begin (GameObject go, Single duration, Vector3 scale)
+      - target: {fileID: 40251510}
+        name: CreatePrimitive (PrimitiveType type)
+      - target: {fileID: 40251511}
+        name: DetachChildren ()
+      - target: {fileID: 40251511}
+        name: Find (String name)
+      - target: {fileID: 40251510}
+        name: Find (String name)
+      - target: {fileID: 40251511}
+        name: FindChild (String name)
+      - target: {fileID: 40251510}
+        name: FindGameObjectsWithTag (String tag)
+      - target: {fileID: 40251510}
+        name: FindGameObjectWithTag (String tag)
+      - target: {fileID: 40251510}
+        name: FindWithTag (String tag)
+      - target: {fileID: 40251511}
+        name: GetChild (Int32 index)
+      - target: {fileID: 40251511}
+        name: GetChildCount ()
+      - target: {fileID: 40251511}
+        name: GetEnumerator ()
+      - target: {fileID: 40251511}
+        name: GetLocalCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 40251511}
+        name: GetSiblingIndex ()
+      - target: {fileID: 40251511}
+        name: GetWorldCorners (Vector3[] fourCornersArray)
+      - target: {fileID: 40251511}
+        name: IsChildOf (Transform parent)
+      - target: {fileID: 40251510}
+        name: PlayAnimation (Object animation)
+      - target: {fileID: 40251512}
+        name: PlayForward ()
+      - target: {fileID: 40251512}
+        name: PlayReverse ()
+      - target: {fileID: 40251511}
+        name: remove_reapplyDrivenProperties (RectTransform+ReapplyDrivenProperties
+          value)
+      - target: {fileID: 40251512}
+        name: RemoveOnFinished (EventDelegate del)
+      - target: {fileID: 40251512}
+        name: ResetToBeginning ()
+      - target: {fileID: 40251511}
+        name: RotateAroundLocal (Vector3 axis, Single angle)
+      - target: {fileID: 40251512}
+        name: Sample (Single factor, Boolean isFinished)
+      - target: {fileID: 40251510}
+        name: SampleAnimation (Object clip, Single time)
+      - target: {fileID: 40251510}
+        name: SetActive (Boolean value)
+      - target: {fileID: 40251510}
+        name: SetActiveRecursively (Boolean state)
+      - target: {fileID: 40251511}
+        name: SetAsFirstSibling ()
+      - target: {fileID: 40251511}
+        name: SetAsLastSibling ()
+      - target: {fileID: 40251512}
+        name: SetEndToCurrentValue ()
+      - target: {fileID: 40251511}
+        name: SetInsetAndSizeFromParentEdge (RectTransform+Edge edge, Single inset,
+          Single size)
+      - target: {fileID: 40251511}
+        name: SetPositionAndRotation (Vector3 position, Quaternion rotation)
+      - target: {fileID: 40251511}
+        name: SetSiblingIndex (Int32 index)
+      - target: {fileID: 40251511}
+        name: SetSizeWithCurrentAnchors (RectTransform+Axis axis, Single size)
+      - target: {fileID: 40251512}
+        name: SetStartToCurrentValue ()
+      - target: {fileID: 40251512}
+        name: StopAllCoroutines ()
+      - target: {fileID: 40251510}
+        name: StopAnimation ()
+      - target: {fileID: 40251512}
+        name: Toggle ()
+      mTarget: {fileID: 40251512}
+      mMethodName: PlayForward
+      mParameters: []
+      mCached: 0
+      oneShot: 0
+  loaderDelay: 1
+--- !u!1 &1094973735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1094973738}
+  - component: {fileID: 1094973737}
+  - component: {fileID: 1094973736}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1094973736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094973735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1094973737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094973735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1094973738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094973735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1138743014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138743015}
+  - component: {fileID: 1138743017}
+  - component: {fileID: 1138743016}
+  m_Layer: 5
+  m_Name: ProgressBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1138743015
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138743014}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 330227255}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2, y: 6}
+  m_SizeDelta: {x: 522, y: 68}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1138743016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138743014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300060, guid: 8a1d67ce83b51d84cba5ed25c7ff5a60, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 0
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1138743017
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138743014}
+  m_CullTransparentMesh: 0
+--- !u!1 &1188218863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188218864}
+  - component: {fileID: 1188218866}
+  - component: {fileID: 1188218865}
+  m_Layer: 5
+  m_Name: Splash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1188218864
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1188218863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40251511}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 19, y: -426}
+  m_SizeDelta: {x: 1770, y: 1460}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1188218865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1188218863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300004, guid: c3232fda2d4de0f4898c0e21a56c03b1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1188218866
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1188218863}
+  m_CullTransparentMesh: 0
+--- !u!1 &1235453988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235453989}
+  - component: {fileID: 1235453991}
+  - component: {fileID: 1235453990}
+  m_Layer: 5
+  m_Name: Sky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1235453989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235453988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40251511}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 19, y: 452}
+  m_SizeDelta: {x: 1683.5, y: 1495}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1235453990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235453988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: c3232fda2d4de0f4898c0e21a56c03b1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1235453991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235453988}
+  m_CullTransparentMesh: 0
+--- !u!1 &1420095547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420095548}
+  - component: {fileID: 1420095551}
+  - component: {fileID: 1420095550}
+  - component: {fileID: 1420095549}
+  m_Layer: 5
+  m_Name: Logo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1420095548
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420095547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1483230054}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1478}
+  m_SizeDelta: {x: 969, y: 668}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1420095549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420095547}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d166255cacf07b4292b8402b3ddefc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 0
+  animationCurve:
+    m_Curve:
+    - time: 0.00308609
+      value: 0.01600647
+      inSlope: -1.1131221
+      outSlope: -1.1131221
+      tangentMode: 0
+    - time: 0.2501607
+      value: 0.6430757
+      inSlope: 1.0566179
+      outSlope: 1.0566179
+      tangentMode: 0
+    - time: 0.99176025
+      value: 0.9894829
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 3
+  steeperCurves: 0
+  tweenGroup: 0
+  useFixedUpdate: 0
+  onFinished:
+  - mTarget: {fileID: 830368326}
+    mMethodName: loadGame
+    mParameters: []
+    oneShot: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 1478, z: 0}
+  to: {x: 0, y: 545.87, z: 0}
+  worldSpace: 0
+--- !u!114 &1420095550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420095547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 038e94d267b27e647b48437184639eb6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1420095551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420095547}
+  m_CullTransparentMesh: 0
+--- !u!1 &1483230050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483230054}
+  - component: {fileID: 1483230053}
+  - component: {fileID: 1483230052}
+  - component: {fileID: 1483230051}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1483230051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483230050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1483230052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483230050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 800}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1483230053
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483230050}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1483230054
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483230050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 40251511}
+  - {fileID: 1420095548}
+  - {fileID: 330227255}
+  - {fileID: 102892026}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}

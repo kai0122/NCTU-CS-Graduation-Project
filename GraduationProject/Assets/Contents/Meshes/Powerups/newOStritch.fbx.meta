@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: fefb9beaf6fed0842b9040339299e09f
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: avestruz:Ala_Der
+    100002: avestruz:Ala_Izq
+    100004: avestruz:Base
+    100006: avestruz:base
+    100008: avestruz:Bses
+    100010: avestruz:Cabeza
+    100012: avestruz:Cabeza 1
+    100014: avestruz:Cabeza_G
+    100016: avestruz:Cola_Der
+    100018: avestruz:Cola_Izq
+    100020: avestruz:Cuello_1
+    100022: avestruz:Cuello_2
+    100024: avestruz:Cuello_3
+    100026: avestruz:Cuerpo
+    100028: avestruz:Cuerpo 1
+    100030: avestruz:Cuerpo_G
+    100032: avestruz:group10
+    100034: avestruz:group11
+    100036: avestruz:group12
+    100038: avestruz:group13
+    100040: avestruz:group14
+    100042: avestruz:group15
+    100044: avestruz:group17
+    100046: avestruz:group3
+    100048: avestruz:group7
+    100050: avestruz:group9
+    100052: avestruz:ikHandle2
+    100054: avestruz:ikHandle3
+    100056: avestruz:ikHandle4
+    100058: avestruz:ikHandle5
+    100060: avestruz:ikHandle6
+    100062: avestruz:ikHandle7
+    100064: avestruz:joint100
+    100066: avestruz:joint101
+    100068: avestruz:joint102
+    100070: avestruz:joint103
+    100072: avestruz:joint104
+    100074: avestruz:joint105
+    100076: avestruz:joint106
+    100078: avestruz:joint11
+    100080: avestruz:joint12
+    100082: avestruz:joint12 1
+    100084: avestruz:joint20
+    100086: avestruz:joint20 1
+    100088: avestruz:joint21
+    100090: avestruz:joint21 1
+    100092: avestruz:joint22
+    100094: avestruz:joint22 1
+    100096: avestruz:joint23
+    100098: avestruz:joint23 1
+    100100: avestruz:joint27
+    100102: avestruz:joint28
+    100104: avestruz:joint28 1
+    100106: avestruz:joint28 2
+    100108: avestruz:joint29
+    100110: avestruz:joint29 1
+    100112: avestruz:joint29 2
+    100114: avestruz:joint30
+    100116: avestruz:joint31
+    100118: avestruz:joint32
+    100120: avestruz:joint32 1
+    100122: avestruz:joint33
+    100124: avestruz:joint33 1
+    100126: avestruz:joint33 2
+    100128: avestruz:joint33 3
+    100130: avestruz:joint34
+    100132: avestruz:joint34 1
+    100134: avestruz:joint34 2
+    100136: avestruz:joint34 3
+    100138: avestruz:joint35
+    100140: avestruz:joint35 1
+    100142: avestruz:joint35 2
+    100144: avestruz:joint35 3
+    100146: avestruz:joint36
+    100148: avestruz:joint36 1
+    100150: avestruz:joint40
+    100152: avestruz:joint41
+    100154: avestruz:joint71
+    100156: avestruz:joint72
+    100158: avestruz:joint86
+    100160: avestruz:joint87
+    100162: avestruz:joint88
+    100164: avestruz:joint89
+    100166: avestruz:joint90
+    100168: avestruz:joint91
+    100170: avestruz:joint92
+    100172: avestruz:joint93
+    100174: avestruz:joint94
+    100176: avestruz:joint95
+    100178: avestruz:joint96
+    100180: avestruz:joint97
+    100182: avestruz:joint98
+    100184: avestruz:joint99
+    100186: avestruz:L_Eye
+    100188: avestruz:L_Eye 1
+    100190: avestruz:Lengua
+    100192: avestruz:Lengua_G
+    100194: avestruz:Locs_Piernas
+    100196: avestruz:Ojos_G
+    100198: avestruz:PataDer
+    100200: avestruz:PataIzq
+    100202: avestruz:Patas
+    100204: avestruz:Patas_G
+    100206: avestruz:Tip
+    100208: avestruz:Tip1
+    100210: avestruz:transform3
+    100212: directionalLight1
+    100214: Geometria
+    100216: //RootNode
+    100218: Offset
+    100220: Ostrich
+    100222: Root
+    400000: avestruz:Ala_Der
+    400002: avestruz:Ala_Izq
+    400004: avestruz:Base
+    400006: avestruz:base
+    400008: avestruz:Bses
+    400010: avestruz:Cabeza
+    400012: avestruz:Cabeza 1
+    400014: avestruz:Cabeza_G
+    400016: avestruz:Cola_Der
+    400018: avestruz:Cola_Izq
+    400020: avestruz:Cuello_1
+    400022: avestruz:Cuello_2
+    400024: avestruz:Cuello_3
+    400026: avestruz:Cuerpo
+    400028: avestruz:Cuerpo 1
+    400030: avestruz:Cuerpo_G
+    400032: avestruz:group10
+    400034: avestruz:group11
+    400036: avestruz:group12
+    400038: avestruz:group13
+    400040: avestruz:group14
+    400042: avestruz:group15
+    400044: avestruz:group17
+    400046: avestruz:group3
+    400048: avestruz:group7
+    400050: avestruz:group9
+    400052: avestruz:ikHandle2
+    400054: avestruz:ikHandle3
+    400056: avestruz:ikHandle4
+    400058: avestruz:ikHandle5
+    400060: avestruz:ikHandle6
+    400062: avestruz:ikHandle7
+    400064: avestruz:joint100
+    400066: avestruz:joint101
+    400068: avestruz:joint102
+    400070: avestruz:joint103
+    400072: avestruz:joint104
+    400074: avestruz:joint105
+    400076: avestruz:joint106
+    400078: avestruz:joint11
+    400080: avestruz:joint12
+    400082: avestruz:joint12 1
+    400084: avestruz:joint20
+    400086: avestruz:joint20 1
+    400088: avestruz:joint21
+    400090: avestruz:joint21 1
+    400092: avestruz:joint22
+    400094: avestruz:joint22 1
+    400096: avestruz:joint23
+    400098: avestruz:joint23 1
+    400100: avestruz:joint27
+    400102: avestruz:joint28
+    400104: avestruz:joint28 1
+    400106: avestruz:joint28 2
+    400108: avestruz:joint29
+    400110: avestruz:joint29 1
+    400112: avestruz:joint29 2
+    400114: avestruz:joint30
+    400116: avestruz:joint31
+    400118: avestruz:joint32
+    400120: avestruz:joint32 1
+    400122: avestruz:joint33
+    400124: avestruz:joint33 1
+    400126: avestruz:joint33 2
+    400128: avestruz:joint33 3
+    400130: avestruz:joint34
+    400132: avestruz:joint34 1
+    400134: avestruz:joint34 2
+    400136: avestruz:joint34 3
+    400138: avestruz:joint35
+    400140: avestruz:joint35 1
+    400142: avestruz:joint35 2
+    400144: avestruz:joint35 3
+    400146: avestruz:joint36
+    400148: avestruz:joint36 1
+    400150: avestruz:joint40
+    400152: avestruz:joint41
+    400154: avestruz:joint71
+    400156: avestruz:joint72
+    400158: avestruz:joint86
+    400160: avestruz:joint87
+    400162: avestruz:joint88
+    400164: avestruz:joint89
+    400166: avestruz:joint90
+    400168: avestruz:joint91
+    400170: avestruz:joint92
+    400172: avestruz:joint93
+    400174: avestruz:joint94
+    400176: avestruz:joint95
+    400178: avestruz:joint96
+    400180: avestruz:joint97
+    400182: avestruz:joint98
+    400184: avestruz:joint99
+    400186: avestruz:L_Eye
+    400188: avestruz:L_Eye 1
+    400190: avestruz:Lengua
+    400192: avestruz:Lengua_G
+    400194: avestruz:Locs_Piernas
+    400196: avestruz:Ojos_G
+    400198: avestruz:PataDer
+    400200: avestruz:PataIzq
+    400202: avestruz:Patas
+    400204: avestruz:Patas_G
+    400206: avestruz:Tip
+    400208: avestruz:Tip1
+    400210: avestruz:transform3
+    400212: directionalLight1
+    400214: Geometria
+    400216: //RootNode
+    400218: Offset
+    400220: Ostrich
+    400222: Root
+    4300000: avestruz:Cuerpo
+    4300002: avestruz:Cabeza
+    4300004: avestruz:Patas
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: avestruz:Cabeza
+    13700002: avestruz:Cuerpo
+    13700004: avestruz:Patas
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    pivotNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 12
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 

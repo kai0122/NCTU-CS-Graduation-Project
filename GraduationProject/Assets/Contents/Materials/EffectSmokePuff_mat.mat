@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EffectSmokePuff_mat
+  m_Shader: {fileID: 4800000, guid: f7b6df13266d03d43b1b24b60da30b31, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 83b1762f69283594a8afec73060fe045, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_CW_IBL_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - V_CW_D_OPTIONS: 0
+    - V_CW_TAG: 0
+    - V_CW_W_OPTIONS: 0
+    - _Dist: 0
+    - _Insensitive: 0
+    - _InvFade: 2.83
+    - _V_CW_Camera_Bend_Offset: 0
+    - _V_CW_Emission_Strength: 1
+    - _V_CW_Fog_Density: 1
+    - _V_CW_Fog_End: 100
+    - _V_CW_Fog_Start: 0
+    - _V_CW_IBL_Contrast: 1
+    - _V_CW_IBL_Intensity: 1
+    - _V_CW_Rim_Bias: 0.2
+    - _V_CW_X_Bend_Size: -0.6
+    - _V_CW_Y_Bend_Size: -0.4
+    - _V_CW_Z_Bend_Bias: 0
+    - _V_CW_Z_Bend_Size: 0
+    - _XsMehVal: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmisColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _QOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0}
+    - _V_CW_Emission_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _V_CW_Fog_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _V_CW_Rim_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
